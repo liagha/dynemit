@@ -1,6 +1,14 @@
 [package]
 name = "dynemit"
-version = "0.1.0"
-edition = "2024"
+version = "0.0.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = ["dyn", "clone", "eq", "hash", "trait-object"]
+description = "a crate for working with Dynamic Dispatch in Rust."
+repository = "https://github.com/liagha/dynemit"
+
+[dev-dependencies]
+rustversion = "1.0"
+trybuild = { version = "1.0.66", features = ["diff"] }
 
 [dependencies]
